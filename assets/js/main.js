@@ -54,6 +54,7 @@ function logMeIn(){
 				"id": domain, //Required	
 				"name":cname
 			});
+			aptrinsic('set', 'globalContext', { "Project": Tej-website2});
 			//console.log(email,firstName,lastName,userId,domain);
 			alert("Logged in user id: "+ firstName);
 			window.location = "main.html";	
