@@ -72,7 +72,7 @@ function logMeIn(){
 
 // aptrinsic('identify',{"id":Date.now(),"email":"cooliio@apple.com","firstName":"cool","lastName":"idio"},{"id":"UID1549611","name":"apple"});
 //aptrinsic('identify',{"id":"dosa","email":"dosaidly@amazon.com","firstName":"dosa","lastName":"idly"},{"id":"UID1549612","name":"amazon"});
-aptrinsic('set', 'globalContext', { "Project": "Tej-website2"});
+
 
 function logOut(){
 	sessionStorage.removeItem('loginPx');
