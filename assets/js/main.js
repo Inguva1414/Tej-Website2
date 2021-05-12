@@ -52,7 +52,8 @@ function logMeIn(){
 
 			},{
 				"id": domain, //Required	
-				"name":cname
+				"name":cname,
+                                "tenant":"website2"
 			});
 			
 			//console.log(email,firstName,lastName,userId,domain);
